@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{8203FEC6-15E1-4024-B34C-30C36BA6BEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLStorageSQL", "DLLStorageSQL\DLLStorageSQL.csproj", "{9D7AD847-CFC7-4BDF-B52A-4D8B8D38AAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor", "Blazor", "{2D0F34B7-E69C-4499-ACFC-0AF9D816CDD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppDLLMTWDM", "BlazorAppDLLMTWDM\BlazorAppDLLMTWDM.csproj", "{3CDAEE55-88D1-43AB-96F9-1B496FA3663F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7AD847-CFC7-4BDF-B52A-4D8B8D38AAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7AD847-CFC7-4BDF-B52A-4D8B8D38AAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7AD847-CFC7-4BDF-B52A-4D8B8D38AAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7AD847-CFC7-4BDF-B52A-4D8B8D38AAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDAEE55-88D1-43AB-96F9-1B496FA3663F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDAEE55-88D1-43AB-96F9-1B496FA3663F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDAEE55-88D1-43AB-96F9-1B496FA3663F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDAEE55-88D1-43AB-96F9-1B496FA3663F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D7AD847-CFC7-4BDF-B52A-4D8B8D38AAEE} = {8203FEC6-15E1-4024-B34C-30C36BA6BEC4}
+		{3CDAEE55-88D1-43AB-96F9-1B496FA3663F} = {2D0F34B7-E69C-4499-ACFC-0AF9D816CDD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9470E90C-E092-4CD0-9155-F3F97A1884EE}
+	EndGlobalSection
+EndGlobal

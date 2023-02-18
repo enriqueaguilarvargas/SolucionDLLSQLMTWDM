@@ -1,0 +1,23 @@
+﻿@using DLLStorageSQL;
+@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        var Almacena = new StorageSQL();
+        bool resultado = Almacena.Almacenar("Manuel", "Celaya", 
+        "manuel@outlook.com", 30, 5000);
+
+    }
+}
